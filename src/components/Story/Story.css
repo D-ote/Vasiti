@@ -1,0 +1,68 @@
+.hidden-file {
+  visibility: hidden;
+  position: absolute;
+}
+
+.story {
+  padding: 30px 20px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.story h1 {
+  color: black;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.upload-div {
+  position: relative;
+}
+
+.upload-div label,
+.details label,
+.textarea label,
+.options label {
+  font-size: 14px;
+  color: #676767;
+}
+
+.details input {
+  padding: 20px;
+  border: 1px solid #eaeaea;
+}
+
+.choose-image {
+  border-radius: 8px;
+  padding: 14px;
+  border: 1px solid #eaeaea;
+  color: #676767;
+}
+
+.clip {
+  position: absolute;
+  left: 90%;
+  top: 50%;
+  color: black;
+  font-size: 20px;
+  transform: rotate(30deg);
+  cursor: pointer;
+}
+
+.textarea textarea {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+
+.options {
+  color: #676767;
+}
+
+.options div {
+  font-size: 14px;
+}
+
+.story-btn {
+  padding: 24px;
+}

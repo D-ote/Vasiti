@@ -1,0 +1,17 @@
+.mm-btn {
+  background: #ff5c00;
+  border-radius: 4px;
+  width: fit-content;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
+  padding: 12px 1.25rem;
+  box-shadow: 1px 4px 8px rgba(239, 88, 3, 0.2);
+}
+
+.mm-btn:disabled {
+  opacity: 0.5;
+}

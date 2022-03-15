@@ -1,0 +1,47 @@
+.review {
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.review-pic {
+  width: 160px;
+  height: 160px;
+}
+
+.review-pic img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.review h5 {
+  color: #474747;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.review p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #474747;
+}
+
+.review-badge {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.blue {
+  background-color: #eef8ff;
+  color: #0d019a;
+}
+
+.green {
+  background-color: #f0ffee;
+  color: #049a01;
+}

@@ -1,0 +1,13 @@
+.sub-header {
+  padding: 10px 200px;
+  margin: 15px auto;
+  list-style: none;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.04);
+}
+
+.sub-header li {
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}

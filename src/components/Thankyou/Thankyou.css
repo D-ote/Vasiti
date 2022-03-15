@@ -1,0 +1,22 @@
+.thankyou {
+  background-color: #ffffff;
+  border-radius: 16px;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.thankyou-body h1 {
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.thanks-text {
+  width: 400px;
+  margin: 20px auto;
+}
+
+.thanks-text p {
+  font-size: 16px;
+  color: #4a4a4a;
+}
