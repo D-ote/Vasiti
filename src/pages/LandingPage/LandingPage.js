@@ -31,10 +31,23 @@ export const LandingPage = () => {
   // let grouped = tray(people, "age");
   // console.log(grouped);
 
+  let customersArray = [
+    "Custy Stomer",
+    "C. Oostomar",
+    "C.U.S. Tomer",
+    3432434,
+    "Custo Mer",
+    "Custopher Ustomer",
+    3432435,
+    "Kasti Yastimeur",
+  ];
+
+  //Write Your Code here:
+  const nums = [1, 2, 3, 5, 6, 11, 15, 16, 17, 18],
+    target = 20;
+
   const [gotReview, setGotReview] = useState([]);
   const story = useContext(ReviewContext);
-
-  console.log(story.review, "story");
 
   const handleFormSubmit = (values) => {
     story.setReview([...story.review, values]);
@@ -60,8 +73,6 @@ export const LandingPage = () => {
   useEffect(() => {
     setGotReview(JSON.parse(localStorage.getItem("review") || "[]"));
   }, [story.review]);
-
-  console.log(gotReview, "gotgot");
 
   return (
     <div className="landing-page">

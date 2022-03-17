@@ -14,7 +14,7 @@ export const TopFooter = () => {
           Be a member <br /> of our community 🎉
         </h1>
         <p>
-          We’d make sure you’re always first to know what’s <br /> happening on
+          We’d make sure you’re always first to know what’s happening on
           Vasiti—thus, the world.
         </p>
         <form className="footer-form">

@@ -65,3 +65,52 @@
   background-color: #ffffff !important;
   color: #494949 !important;
 }
+
+@media screen and (max-width: 426px) {
+  .footer-img {
+    display: none;
+  }
+
+  .footer-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-div {
+    width: 100%;
+  }
+
+  .footer-text {
+    width: 400px;
+    margin: 40px 0 40px 0;
+  }
+
+  .footer-text h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+  }
+
+  .footer-text p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+  }
+
+  .footer-btn {
+    position: absolute;
+    left: 70%;
+    top: 9%;
+    background-color: #ffffff !important;
+    color: #494949 !important;
+  }
+
+  .footer-form {
+    margin-top: 20px;
+  }
+}

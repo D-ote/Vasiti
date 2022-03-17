@@ -106,3 +106,75 @@
 .share {
   cursor: pointer;
 }
+
+@media screen and (max-width: 426px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-intro {
+    width: 300px;
+  }
+
+  .about-intro h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    /* letter-spacing: -0.02em; */
+  }
+
+  .about-intro p {
+    width: 300px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    color: #494949;
+  }
+
+  .about img {
+    width: 300px;
+  }
+
+  .experience img {
+    display: none;
+  }
+
+  .vendor-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience-article {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .experience-article h4 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+  }
+
+  .experience-article p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+  }
+
+  .vendor-image img {
+    width: 300px;
+    margin-top: 40px;
+  }
+}
