@@ -1,10 +1,7 @@
 import { useFormik } from "formik";
-import React, { useContext, useRef } from "react";
-import { ReviewPic } from "../../context/context";
+import React, { useRef } from "react";
 import { Button } from "../Button/Button";
 import { ErrorssMsg } from "../ErrorsMsg/ErrorssMsg";
-import Modal from "../Modal/Modal";
-import { Thankyou } from "../Thankyou/Thankyou";
 import { HiddenFile } from "./HiddenFile";
 import "./Story.css";
 
