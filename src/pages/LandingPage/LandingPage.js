@@ -28,7 +28,7 @@ export const LandingPage = () => {
 
   useEffect(() => {
     story.setReview(JSON.parse(localStorage.getItem("review") || "[]"));
-  }, []);
+  }, [story]);
 
   useEffect(() => {
     if (story?.review?.length > 0) {
