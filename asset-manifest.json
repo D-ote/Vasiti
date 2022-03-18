@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c24a1438.css",
+    "main.js": "/static/js/main.5cc03ec1.js",
+    "static/media/about.svg": "/static/media/about.1cb341af5c315cab59357cdd7ebd1afa.svg",
+    "static/media/shoppingbag.svg": "/static/media/shoppingbag.ec01363bb71d3b30470173a37805488d.svg",
+    "static/media/smiling.svg": "/static/media/smiling.c3d69793b81b07ec425e8195b299b541.svg",
+    "static/media/fone.svg": "/static/media/fone.8a0cc395be91b136304542a1929c1b66.svg",
+    "static/media/pic.svg": "/static/media/pic.f4793cc6bd89a3c429d8f47e3ebf9d19.svg",
+    "static/media/yaay.svg": "/static/media/yaay.9ca8a84a486722783f720ea59b39de58.svg",
+    "static/media/Vasiti-Logo.svg": "/static/media/Vasiti-Logo.4a358c1edfae9a65afb82b392db62c08.svg",
+    "index.html": "/index.html",
+    "static/media/underline.svg": "/static/media/underline.726d08c75a58088d1dd9a06606171ad7.svg",
+    "static/media/Ellipse.svg": "/static/media/Ellipse.bfff54e2ea4ed0b38bc0fab8ae7d1d66.svg",
+    "main.c24a1438.css.map": "/static/css/main.c24a1438.css.map",
+    "main.5cc03ec1.js.map": "/static/js/main.5cc03ec1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c24a1438.css",
+    "static/js/main.5cc03ec1.js"
+  ]
+}
