@@ -12,40 +12,6 @@ import { ReviewContext } from "../../context/context";
 import { Thankyou } from "../../components/Thankyou/Thankyou";
 
 export const LandingPage = () => {
-  // let people = [
-  //   { name: "Alice", age: 21 },
-  //   { name: "Max", age: 20 },
-  //   { name: "Jane", age: 20 },
-  // ];
-  // const tray = (myArray, property) => {
-  //   return myArray.reduce((prev, curr) => {
-  //     let key = curr[property];
-  //     if (!prev[key]) {
-  //       prev[key] = [];
-  //     }
-  //     prev[key].push(curr);
-  //     return prev;
-  //   }, {});
-  // };
-
-  // let grouped = tray(people, "age");
-  // console.log(grouped);
-
-  let customersArray = [
-    "Custy Stomer",
-    "C. Oostomar",
-    "C.U.S. Tomer",
-    3432434,
-    "Custo Mer",
-    "Custopher Ustomer",
-    3432435,
-    "Kasti Yastimeur",
-  ];
-
-  //Write Your Code here:
-  const nums = [1, 2, 3, 5, 6, 11, 15, 16, 17, 18],
-    target = 20;
-
   const [gotReview, setGotReview] = useState([]);
   const story = useContext(ReviewContext);
 
